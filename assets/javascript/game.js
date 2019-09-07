@@ -15,9 +15,9 @@ var lost;
 var win;
 
 for (var i = 0; i < 4; i++) {
-    var crystal =$("<div>");
+    var crystal = $("<div>");
         crystal.attr("class",'crystal');
-    $("cyrstals").append(crystal);
+    $(".cyrstals").append(crystal);
 
-    console.log("Hello World");
+    
 }
