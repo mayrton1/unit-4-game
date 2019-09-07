@@ -1,7 +1,6 @@
 .crystals{
     display: flex;
-    justify-content: center;
-    border:1px solid red;
+    justify-content: space-around;
     align-items: center;
 }
 .crystal{
@@ -10,7 +9,21 @@
     width: 200px;
 }
 
-.body{
-    background-image: url("assets/images/Background.jpg");
-    background-size: cover;
+body{
+    background-image: url("C:/Users/ayrto/OneDrive/Desktop/unit-4-game/assets/images/Background.jpg");
+    background-size: 120%;
 }
+
+h1{
+    color:white;
+    font-display: Helvetica;
+}
+
+h2{
+    color:plum;
+}
+
+h3{
+    color:red;
+}
+
