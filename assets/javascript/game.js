@@ -21,8 +21,8 @@ var restAndStart = function () {
 
     var images = ["C:/Users/ayrto/OneDrive/Desktop/unit-4-game/assets/images/Gemston1.jpg",
      "C:/Users/ayrto/OneDrive/Desktop/unit-4-game/assets/images/Gemstone 2.jpg", 
-     "",
-     ""
+     "C:/Users/ayrto/OneDrive/Desktop/unit-4-game/assets/images/Gemstone.jpg",
+     "C:/Users/ayrto/OneDrive/Desktop/unit-4-game/assets/images/Gemstone3.jpg"
     ];
 
     random_result = Math.floor(Math.random() * 101) + 19; //hosting
@@ -45,6 +45,7 @@ var restAndStart = function () {
         });
         crystal.css({
             "background-image":"url('" + (images[i]) + "')",
+            "background-size":"cover"
             
         });
         // crystal.html(random);  //crystal numbers in div. 
