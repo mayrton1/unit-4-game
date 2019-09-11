@@ -10,23 +10,29 @@
 }
 
 body{
-    background: url ("C:\Users/ayrto/OneDrive/Desktop/unit-4-game/assets/images/crystal_caverns_by_cakeklis-dc8brhg.jpg") no-repeat;
-    background-size: contain;
+    background: url("C:/Users/ayrto/OneDrive/Desktop/unit-4-game/assets/images/crystal_caverns_by_cakeklis-dc8brhg.jpg") no-repeat;
+    background-size:cover;
     
     
   
 }
 
 h1{
-    color:white;
-    font-display: Helvetica;
+    color: rgb(140, 0, 255);
+    font-family: "Times New Roman", "Times", "serif";
+    text-align: center;
+    font-size: 50px;
+    font-weight: bolder;
+  
 }
 
 h2{
-    color:plum;
+    color: rgba(0, 225, 255, 0.609);
+    
 }
 
 h3{
-    color:red;
+    color:rgba(255, 0, 76, 0.644);
+    
 }
 
