@@ -33,12 +33,14 @@ for (var i = 0; i < 4; i++) {
 
     crystal.html(random);
 
-    $(".cyrstals").append(crystal);
+    $(".crystals").append(crystal);
 
 
 }
 
-$(".cyrstal").on('click', function () {
+$(".crystal").on('click', function () {
+
+    console.log("crystalclick");
 
     var num = parseInt($(this).attr('data-random'));
 
@@ -60,3 +62,7 @@ $(".cyrstal").on('click', function () {
     }
     console.log(previous);
 });
+
+function newFunction() {
+    return "random";
+}
