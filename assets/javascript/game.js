@@ -30,7 +30,7 @@ var restAndStart = function () {
     //console.log(random_result);
 
     $("#result").html("Random Result:" + random_result);
-    $('#result').css({ "color": "lightgreen" });
+    $('#result').css({ "color": "blue" });
 
     // Game with 4 cyrstals and random result
     // Every crystal needs to have a random number between 1-12
