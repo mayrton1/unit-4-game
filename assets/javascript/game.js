@@ -15,6 +15,7 @@ var lost = 0;
 var win = 0;
 var previous = 0;
 
+
 var restAndStart = function () {
 
     $(".crystals").empty();
@@ -37,7 +38,7 @@ var restAndStart = function () {
     for (var i = 0; i < 4; i++) {
 
         var random = Math.floor(Math.random() * 11) + 1;
-        console.log(random);
+        // console.log(random);
 
         var crystal = $("<div>");
         crystal.attr({
@@ -53,6 +54,7 @@ var restAndStart = function () {
         $(".crystals").append(crystal);
     }
     $("#previous").html("Total Score:" + previous);
+    $('#previous').css({ "color": "purple" });
 }
 
 restAndStart();
@@ -74,8 +76,9 @@ $(document).on('click', ".crystal", function () {
     // If it is greater than the random result it displays a lost counter 
     if (previous > random_result) {
         lost++;
-        $("#lost").html("You lost:" + lost);
-
+        $("#lost").html("You lost!:" + lost);
+        $('#lost').css({ "color": "red" });
+        
         previous = 0;
 
 
@@ -85,8 +88,9 @@ $(document).on('click', ".crystal", function () {
     // If it is equal then the win counter increases
     else if (previous === random_result) {
         win++;
+        
         $("#win").html("You win!:" + win);
-
+        $('#win').css({ "color": "lightgreen" });
         previous = 0;
 
         restAndStart();
