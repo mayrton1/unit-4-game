@@ -20,10 +20,10 @@ var restAndStart = function () {
 
     $(".crystals").empty();
 
-    var images = ["C:/Users/ayrto/OneDrive/Desktop/unit-4-game/assets/images/Gemston1.jpg",
-     "C:/Users/ayrto/OneDrive/Desktop/unit-4-game/assets/images/Gemstone 2.jpg", 
-     "C:/Users/ayrto/OneDrive/Desktop/unit-4-game/assets/images/Gemstone.jpg",
-     "C:/Users/ayrto/OneDrive/Desktop/unit-4-game/assets/images/Gemstone3.jpg"
+    var images = ["assets/images/Gemston1.jpg",
+     "assets/images/Gemstone 2.jpg", 
+    "assets/images/Gemstone.jpg",
+     "assets/images/Gemstone3.jpg"
     ];
 
     random_result = Math.floor(Math.random() * 101) + 19; //hosting
